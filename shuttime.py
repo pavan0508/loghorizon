@@ -1,7 +1,8 @@
 import os
 import time
 os.system("clear")
-for i in range(5):
+t = int(input("Enter the Time to ShutDown:"))
+for i in range(t):
 	print(i)
 	os.system("clear")
 	time.sleep(1)
